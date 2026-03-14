@@ -22,6 +22,7 @@ To practice these queries realistically, I designed a simulated enterprise relat
 ## 📂 Repository Structure
 The repository is organized logically by business module. Each folder contains the SQL scripts needed to build the tables, populate the mock data, and the `.sql` files containing my solutions.
 
+
 ```text
 ├── 01_HR_Module/
 │   ├── schema_and_data.sql      # DDL and DML for HR tables
@@ -33,3 +34,17 @@ The repository is organized logically by business module. Each folder contains t
 │   ├── schema_and_data.sql      # DDL and DML for Project tables
 │   └── project_solutions.sql    # Solutions for Project questions
 └── README.md
+```
+
+## 🛠️ How to Use This Repository
+If you want to run these queries yourself:
+1. Clone this repository to your local machine.
+2. Open Microsoft SQL Server Management Studio (SSMS) or Azure Data Studio.
+3. Create a new database (e.g., `CREATE DATABASE SQL_Interview_Practice;`).
+4. Run the `schema_and_data.sql` scripts from each folder to build the environment.
+5. Execute the queries found in the `solutions.sql` files to see the results!
+
+## 📫 Let's Connect!
+I am always looking to tackle new data challenges. Feel free to reach out to me:
+* **LinkedIn:** https://www.linkedin.com/in/rajvishwakarma26/
+* **Email:** raj.technicalwriter@gmail.com
